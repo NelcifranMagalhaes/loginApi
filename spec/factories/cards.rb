@@ -1,7 +1,7 @@
 FactoryBot.define do
   factory :card do
-    name { "MyString" }
-    note { "MyString" }
-    project { nil }
+    name { Faker::Job.title}
+    note { Faker::Lorem.paragraph }
+    project
   end
 end

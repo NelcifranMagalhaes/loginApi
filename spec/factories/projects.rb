@@ -1,7 +1,7 @@
 FactoryBot.define do
   factory :project do
-    name { "MyString" }
-    note { "MyString" }
-    user { nil }
+    name { Faker::Job.title }
+    note { Faker::Lorem.paragraph }
+    user
   end
 end

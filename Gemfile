@@ -50,3 +50,5 @@ gem 'devise_token_auth'
 # Serializar dados JSOn
 gem 'active_model_serializers', '~> 0.10.2'
 gem 'rack-cors'
+#gem para dados ficticios
+gem 'faker'
